@@ -48,7 +48,6 @@ if st.button('Predict Species'):
     accuracy = accuracy_score(y_test, y_pred)
     st.write(f"Model Accuracy: {accuracy * 100:.2f}%")
 
-pip install streamlit scikit-learn
 
 import streamlit as st
 import numpy as np
